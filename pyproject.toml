@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "early-ht-pde"
+version = "0.2.0"
+description = "Variational product-metric certificates for HT tree selection before a full PDE solve"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+keywords = ["hierarchical-tucker", "tensor-approximation", "elliptic-pde", "numerical-analysis", "certificates"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = ["numpy>=1.24", "scipy>=1.12", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

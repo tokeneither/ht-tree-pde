@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-20T17:05:42.469866+00:00",
+  "n": 12,
+  "seeds": [
+    89
+  ],
+  "groups": [
+    "local",
+    "stable",
+    "transition"
+  ],
+  "queries": 32,
+  "repeats": 3,
+  "methods": [
+    "direct_fresh",
+    "direct_reuse",
+    "offline_certificate_fresh",
+    "offline_certificate_reuse",
+    "offline_round_all",
+    "offline_warm_tree"
+  ],
+  "homogeneous_scaling": true,
+  "source_sha256": {
+    "src/earlyht/parametric.py": "a4bf23ffff48a57e28dc80106af644ba8377a903fe4e3d2b8f453c210b922c46",
+    "src/earlyht/reuse.py": "473837183366d3aa6cd5904ca251d4e02455dc76dd33e6cc35233137a9258f06",
+    "src/earlyht/direct_full.py": "b514af2bed2ed49abb21d7f2d1defa2c15badc533d51fb7a3369831f31dae66b",
+    "src/earlyht/fast_legacy.py": "b2fcc4c1e2c36ee045c2abcd76b859fa3e7a73a99b9b1b18c07d47f141e5a750",
+    "scripts/benchmark_certificate_reuse.py": "bcd9178ddf2f0dd91e1b1beb7d3cd3215a7b9513b880c3fc393ca26d9add0c2a"
+  },
+  "environment": {
+    "python": "3.11.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "platform": "Linux-7.0.12-linuxkit-aarch64-with-glibc2.36",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "protocol": "all setup and per-query fit costs included; input generator and post-timing oracle excluded"
+}

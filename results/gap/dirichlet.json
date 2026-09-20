@@ -1,0 +1,237 @@
+{
+  "description": "Audit of one optimized spectral projection + centered scalar bound + exact tail energy",
+  "scope": "Finite diagonal examples; no performance or literature-priority claim",
+  "polynomial_energy_i_squared": [
+    {
+      "k": 8,
+      "first_retained_one_based": 2,
+      "exact_tail_energy": 1,
+      "optimized_retained_scalar_bound": 3.433978363553253,
+      "optimized_scalar_plus_tail": 4.433978363553253,
+      "center_residual_threshold": 2.5308547920158464,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.1084945908883135
+    },
+    {
+      "k": 16,
+      "first_retained_one_based": 4,
+      "exact_tail_energy": 3,
+      "optimized_retained_scalar_bound": 4.671776981567096,
+      "optimized_scalar_plus_tail": 7.671776981567096,
+      "center_residual_threshold": 6.3355266993237445,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.2082291636469171
+    },
+    {
+      "k": 32,
+      "first_retained_one_based": 7,
+      "exact_tail_energy": 6,
+      "optimized_retained_scalar_bound": 7.119544090369448,
+      "optimized_scalar_plus_tail": 13.119544090369448,
+      "center_residual_threshold": 14.233351701792383,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.3016236306497275
+    },
+    {
+      "k": 64,
+      "first_retained_one_based": 13,
+      "exact_tail_energy": 12,
+      "optimized_retained_scalar_bound": 10.041805505847146,
+      "optimized_scalar_plus_tail": 22.041805505847144,
+      "center_residual_threshold": 32.998342045416386,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.3776128441154467
+    },
+    {
+      "k": 128,
+      "first_retained_one_based": 21,
+      "exact_tail_energy": 20,
+      "optimized_retained_scalar_bound": 16.644303091020664,
+      "optimized_scalar_plus_tail": 36.64430309102066,
+      "center_residual_threshold": 70.02749206455395,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.442779025722022
+    },
+    {
+      "k": 256,
+      "first_retained_one_based": 36,
+      "exact_tail_energy": 35,
+      "optimized_retained_scalar_bound": 25.38198861728421,
+      "optimized_scalar_plus_tail": 60.38198861728421,
+      "center_residual_threshold": 152.58172334894158,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.4976630039220127
+    },
+    {
+      "k": 512,
+      "first_retained_one_based": 59,
+      "exact_tail_energy": 58,
+      "optimized_retained_scalar_bound": 40.86166483167763,
+      "optimized_scalar_plus_tail": 98.86166483167763,
+      "center_residual_threshold": 323.58838372405864,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.5447135129949634
+    },
+    {
+      "k": 1024,
+      "first_retained_one_based": 98,
+      "exact_tail_energy": 97,
+      "optimized_retained_scalar_bound": 64.04317135426432,
+      "optimized_scalar_plus_tail": 161.0431713542643,
+      "center_residual_threshold": 686.216887798542,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.585169386961443
+    },
+    {
+      "k": 2048,
+      "first_retained_one_based": 161,
+      "exact_tail_energy": 160,
+      "optimized_retained_scalar_bound": 101.3037691180007,
+      "optimized_scalar_plus_tail": 261.3037691180007,
+      "center_residual_threshold": 1441.260369565133,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.620288585863945
+    }
+  ],
+  "two_dimensional_dirichlet_energy_two_lambda_i": [
+    {
+      "k": 8,
+      "first_retained_one_based": 2,
+      "exact_tail_energy": 1,
+      "optimized_retained_scalar_bound": 3.007814821033394,
+      "optimized_scalar_plus_tail": 4.007814821033394,
+      "center_residual_threshold": 11.23268090548607,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.0019537052583487
+    },
+    {
+      "k": 16,
+      "first_retained_one_based": 4,
+      "exact_tail_energy": 3,
+      "optimized_retained_scalar_bound": 3.774197572665824,
+      "optimized_scalar_plus_tail": 6.774197572665824,
+      "center_residual_threshold": 27.19806228573433,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.0668692647435534
+    },
+    {
+      "k": 32,
+      "first_retained_one_based": 7,
+      "exact_tail_energy": 6,
+      "optimized_retained_scalar_bound": 5.365969383717483,
+      "optimized_scalar_plus_tail": 11.365969383717484,
+      "center_residual_threshold": 59.34865284518753,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.127646984771968
+    },
+    {
+      "k": 64,
+      "first_retained_one_based": 12,
+      "exact_tail_energy": 11,
+      "optimized_retained_scalar_bound": 7.8304590042550615,
+      "optimized_scalar_plus_tail": 18.83045900425506,
+      "center_residual_threshold": 127.43500715790982,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.1769036877659416
+    },
+    {
+      "k": 128,
+      "first_retained_one_based": 19,
+      "exact_tail_energy": 18,
+      "optimized_retained_scalar_bound": 12.836486112560829,
+      "optimized_scalar_plus_tail": 30.836486112560827,
+      "center_residual_threshold": 263.75890273347153,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.2141105611876974
+    },
+    {
+      "k": 256,
+      "first_retained_one_based": 31,
+      "exact_tail_energy": 30,
+      "optimized_retained_scalar_bound": 20.196599268589043,
+      "optimized_scalar_plus_tail": 50.19659926858904,
+      "center_residual_threshold": 551.612354378088,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.2450333513153813
+    },
+    {
+      "k": 512,
+      "first_retained_one_based": 51,
+      "exact_tail_energy": 50,
+      "optimized_retained_scalar_bound": 31.275498709206772,
+      "optimized_scalar_plus_tail": 81.27549870920677,
+      "center_residual_threshold": 1151.3694808154946,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.269929667331356
+    },
+    {
+      "k": 1024,
+      "first_retained_one_based": 83,
+      "exact_tail_energy": 82,
+      "optimized_retained_scalar_bound": 49.0904710460419,
+      "optimized_scalar_plus_tail": 131.0904710460419,
+      "center_residual_threshold": 2383.942099800765,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.2903409680589266
+    },
+    {
+      "k": 2048,
+      "first_retained_one_based": 135,
+      "exact_tail_energy": 134,
+      "optimized_retained_scalar_bound": 76.806387111396,
+      "optimized_scalar_plus_tail": 210.80638711139602,
+      "center_residual_threshold": 4913.471189087703,
+      "exact_product_bound_and_rank_one_gain": 1.0,
+      "normalized_by_k_power_two_thirds": 1.307165158836897
+    }
+  ],
+  "exhaustive_subset_checks": [
+    {
+      "k": 2,
+      "subsets_including_empty": 4,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 3,
+      "subsets_including_empty": 8,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 4,
+      "subsets_including_empty": 16,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 5,
+      "subsets_including_empty": 32,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 6,
+      "subsets_including_empty": 64,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 7,
+      "subsets_including_empty": 128,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 8,
+      "subsets_including_empty": 256,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 9,
+      "subsets_including_empty": 512,
+      "max_optimum_discrepancy": 0.0
+    },
+    {
+      "k": 10,
+      "subsets_including_empty": 1024,
+      "max_optimum_discrepancy": 0.0
+    }
+  ],
+  "polynomial_asymptotic_constant_proved_in_note": 1.88988157484231,
+  "status": "passed"
+}

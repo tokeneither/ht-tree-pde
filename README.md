@@ -88,16 +88,4 @@ arithmetic. Certifying a family does not prove its fitted tensor globally optima
 | `docs/` | Theory guide and focused prior-art audit |
 | `paper/` | PDF and a standalone LaTeX source ZIP |
 
-This is an unpublished prototype developed with substantial AI assistance.
-The strongest new-result candidate is the compression-resistant separation;
-literature priority has not been established. The draft also discusses earlier
-exploratory studies; the compact repository's reproduction commands cover the
-three experiments above. [Paper sources](paper/draft_sources.zip) include the
-bundled tables needed to build the draft.
 
-Recorded configurations retain their original source hashes. Numerical library
-files are unchanged by this cleanup; benchmark I/O, defaults, and report paths
-were simplified. Recorded timings were not rerun or replaced.
-
-To package this directory: `python scripts/export_repository.py`.
-See [contributing](CONTRIBUTING.md) and the [MIT license](LICENSE).
